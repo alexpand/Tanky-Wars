@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tanky Wars</title>
+
+    <audio id="win" src="ground_shaker_asset/sounds/youwin2.mp3"></audio>
+    <audio id="explosion" src="ground_shaker_asset/sounds/explosion.wav"></audio>
+    <audio id="shoot" src="ground_shaker_asset/sounds/tankshoot.wav"></audio>
+    <audio loop id="theme" src="ground_shaker_asset/sounds/doom-ost-e1m1-at-dooms-gate.mp3"></audio>
+
+    <script src="obstaclesarr.js"></script>
+    <script src="deadanimation.js"></script>
+    <script src="redbullets.js"></script>
+    <script src="bullets.js"></script>
+    <script src="player2.js"></script>
+    <script src="player.js"></script>
+    <script src="obstacles.js"></script>
+    <script src="background.js"></script>
+    <script src="game.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div id="start" class="container">
+        <button id="start-button" class="start-style">TANKY WARS!!!</button>
+
+    </div>
+    <!-- <div id="restart" class="res">
+        <button id="restart-button" class="start-style">RESTART?</button>
+    </div>
+    -->
+    <canvas id="canvas"></canvas>
+
+</body>
+
+</html>
