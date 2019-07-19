@@ -29,3 +29,29 @@ body{
     top: 10%;
     left: 42%;
 }
+
+h2{
+    font-size: 24px
+}
+
+h3{
+    font-size: 20px
+}
+
+p{
+    font-size: 17px
+}
+
+.controls-style{
+    width: 400px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.control-box{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
