@@ -46,7 +46,7 @@ const Game = {
             this.moveAll()
             this.clearBullets()
             this.tankDamage()
-            this.winner ? this.drawWinner(this.winner) : null
+            this.drawWinner(this.winner)
         }, 1000 / this.fps)
     },
 
@@ -276,12 +276,11 @@ const Game = {
     gameOver: function () {
         let audioTheme = document.getElementById("theme")
         let winTheme = document.getElementById("win")
-        let restart = document.getElementById("restart")
 
         audioTheme.pause()
         winTheme.play()
         clearInterval(this.interval)
-        restart.className = "in"
+
 
     }
 }

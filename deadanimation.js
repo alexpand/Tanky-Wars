@@ -44,6 +44,7 @@ class DeadAnimation {
             this.explosion.play()
             this.image.framesIndex++
             if (this.image.framesIndex > 5) {
+                clearInterval(Game.interval)
                 Game.gameOver()
                 this.image.framesIndex = 0
             }
